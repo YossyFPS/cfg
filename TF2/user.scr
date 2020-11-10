@@ -1,0 +1,219 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// User options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Mon Mar 08 00:09:29 AM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION INFO_OPTIONS
+{
+	"mp_decals"
+	{
+		"#Valve_Multiplayer_Decal_Limit"
+		{ NUMBER 0 4096 }
+		{ "200" }
+	}
+
+	"cl_hud_minmode"
+	{
+		"#GameUI_EnableHUDMinMode"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_classautokill"
+	{
+		"#TF_classautokill"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"tf_medigun_autoheal"
+	{
+		"#TF_medigun_autoheal"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_autorezoom"
+	{
+		"#TF_autozoom"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_autoreload"
+	{
+		"#TF_autoreload"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_takesshots"
+	{
+		"#game_takesshots"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_remember_activeweapon"
+	{
+		"#TF_rememberactiveweapon"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"tf_remember_lastswitched"
+	{
+		"#TF_rememberlastweapon"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"r_drawviewmodel"
+	{
+		"#TF_drawviewmodel_option"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_flipviewmodels"
+	{
+		"#TF_flipviewmodel_option"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"viewmodel_fov"
+	{
+		"#TF_viewmodelfov_option"
+		{ SLIDER 54 70 }
+		{ "54" }
+	}
+
+	"cl_playerspraydisable"
+	{
+		"#GameUI_DisableSprays"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_colorblindassist"
+	{
+		"#TF_colorblindassist"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_disablehtmlmotd"
+	{
+		"#TF_disableHTMLMOTD"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_spec_carrieditems"
+	{
+		"#TF_SpectateCarriedItems"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_use_tournament_specgui"
+	{
+		"#TF_UseAdvancedTourneyGUI"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_particles_disable_weather"
+	{
+		"#TF_DisableWeatherParticles"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_simple_disguise_menu"
+	{
+		"#TF_simple_disguise_menu_option"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_combattext"
+	{
+		"#TF_CombatText"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_medichealtargetmarker"
+	{
+		"#TF_HealTargetMarker"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_medicautocallers"
+	{
+		"#TF_AutoMedicCallers"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_medicautocallersthreshold"
+	{
+		"#TF_AutoMedicCallThreshold"
+		{ SLIDER 10 99 }
+		{ "54.220001" }
+	}
+
+	"tf_dingalingaling"
+	{
+		"#TF_Hitbeeps"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_cloud_settings"
+	{
+		"#Valve_UseSteamCloud"
+		{ BOOL }
+		{ "1" }
+	}
+
+}
